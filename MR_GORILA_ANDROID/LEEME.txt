@@ -1,0 +1,23 @@
+MR. GORILA - NOTAS E INVENTARIO - NUEVA VERSION 2.0
+
+Este proyecto conserva el archivo HTML original de la aplicación y sus funciones.
+La nueva MainActivity conecta window.print() con el servicio nativo de impresión
+de Android. Al generar una nota o imprimir una nota guardada, Android mostrará
+el cuadro de impresión; selecciona "Guardar como PDF" y elige la carpeta
+Descargas (o la ubicación que prefieras).
+
+Esta versión usa el identificador independiente:
+com.mrgorila.notasinventario
+
+Por ello se instala como una aplicación separada y no reemplaza la anterior.
+
+COMPILACION EN GITHUB ACTIONS
+1. Sube el contenido de esta carpeta al repositorio nuevo.
+2. Abre Actions y ejecuta "Crear APK MR GORILA".
+3. Descarga el artefacto MR-GORILA-APK cuando termine correctamente.
+4. Instala la APK nueva en Android. No desinstales la aplicación anterior.
+
+IMPORTANTE
+La APK anterior y el HTML original se conservaron como base. Los datos guardados
+localmente dentro de la aplicación antigua no se transfieren automáticamente
+a esta nueva instalación. Haz respaldo de tus datos antes de cambiar de app.
